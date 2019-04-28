@@ -1,9 +1,9 @@
 
-int outputValue = 0; //the motor is initiated at zero
+int outputValue = 0;                               //the motor is initiated at zero
 
 unsigned long time = 0;
 const int sampleWindow = 50;                       // Sample window width in mS (50 mS = 20Hz)
-unsigned int sample;
+unsigned int sample;                               // 'sample' = analog reading of microphone
 
 #include <AccelStepper.h>                          // Library used to drive the stepper motor
  
